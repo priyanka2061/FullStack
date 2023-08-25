@@ -1,0 +1,101 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+.card
+{
+    width:90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #ffff;
+    margin: 20px auto 0; /*  this is a way to center the element */
+    border-radius: 20px;
+    padding:40px 35px ;
+    text-align: center;
+}
+.search
+{
+    width:100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border:0;
+    outline: 0;
+    background-color: #ebfffc;
+    color:#555;
+    padding:  10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.search button
+{
+    border:0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.search button:hover
+{
+    opacity: 0.40;
+
+}
+.cloud
+{
+    font-size: 8rem;
+    color: #fff;
+}
+.details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col 
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+  
+}
+.col .fa-solid
+{
+margin: 0 8px;
+font-size: 2rem;
+}
+.humidity .wind
+{
+    font-size: 1.2rem;
+}
+.temp
+{
+    font-size: 3rem;
+}
+.city h3
+{
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 1rem 0 0;
+    border-bottom: solid 1px;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto ;
+}
